@@ -1,27 +1,32 @@
-# RecipeBook
+# Recipe Book
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+Recipe Book is a Single Page Application (SPA) that allows users to manage their recipes. It is built using Angular, TypeScript, and Firebase Realtime Database.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- User Authentication: Users can sign up and log in to access their recipe book.
+- Recipe Information: Users can view recipe details such as name, ingredients, image, and description.
+- Shopping List: Users can add ingredients from a recipe to their shopping list for easy grocery shopping.
+- Recipe Management: Users can add new recipes, edit existing ones, and delete recipes they no longer need.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: A popular front-end framework for building SPAs.
+- TypeScript: A superset of JavaScript that adds static typing to the language.
+- Firebase Realtime Database: A NoSQL cloud database provided by Google, used for real-time data storage.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Follow these steps to get the Recipe Book up and running on your local machine:
 
-## Running unit tests
+1. Clone the repository: Use `git clone https://github.com/mohamedSamir97/Recipe-book.git` to clone the repository to your local machine.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Install dependencies: Navigate to the project directory and run `npm install` to install the required dependencies.
 
-## Running end-to-end tests
+3. Configure Firebase: Create a Firebase project and enable the Realtime Database. Obtain the Firebase configuration details and update them in the `environment.ts` file.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Run the application: Use `ng serve` to start the development server. Open your browser and navigate to `http://localhost:4200` to access the Recipe Book application.
 
-## Further help
+---
+By [Mohamed Samir](https://github.com/mohamedSamir97)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
