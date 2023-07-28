@@ -28,5 +28,5 @@ Follow these steps to get the Recipe Book up and running on your local machine:
 4. Run the application: Use `ng serve` to start the development server. Open your browser and navigate to `http://localhost:4200` to access the Recipe Book application.
 
 ---
-By [Mohamed Samir](https://github.com/mohamedSamir97)
+By [Maximilian](https://github.com/mschwarzmueller)
 
